@@ -1,0 +1,45 @@
+.allNotes {
+  display: grid;
+  gap: 5px;
+  position: relative;
+}
+.allNote {
+  position: relative;
+  left: 3%;
+  justify-content: center;
+  justify-self: center;
+  text-align: left;
+}
+.allNote h1 {
+  color: wheat;
+}
+.allNote .stopProp {
+  position: relative;
+  left: 80%;
+  justify-content: center;
+  align-content: center;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.allNote .button {
+  position: relative;
+  left: 0;
+}
+.allNote .Content {
+  position: relative;
+  top: -45px;
+}
+.pin {
+  position: relative;
+  left: 90%;
+  justify-content: center;
+  align-content: center;
+  width: fit-content;
+}
+.pinImage {
+  position: relative;
+  top: -20px;
+  background-color: beige;
+  border-radius: 50%;
+}

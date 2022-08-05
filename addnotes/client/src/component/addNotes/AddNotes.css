@@ -1,0 +1,64 @@
+.addNotes {
+  align-items: left;
+  width: 45%;
+  height: auto;
+  border: 0.1px solid white;
+  background-color: rgb(145, 115, 115);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 25%;
+  color: #ffffff;
+  padding: 1%;
+  margin-bottom: 4px;
+  box-shadow: 14px 24px 5px -3px rgba(237, 230, 237, 0.6);
+}
+.title {
+  height: 30px;
+}
+.inputField {
+  color: rgb(47, 47, 82);
+  /* border: none; */
+  margin: 5px;
+  background-color: transparent;
+  border-radius: 8px;
+}
+textarea {
+  height: auto;
+}
+.addNotes .button {
+  width: 60px;
+  text-align: center;
+}
+.deleteSave {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  left: 10%;
+}
+.hidden {
+  display: none;
+}
+.show {
+  border: none;
+  position: relative;
+  bottom: 10rem;
+}
+.formField {
+  position: relative;
+  left: 25%;
+  background-color: bisque;
+}
+
+.save {
+  width: 40%;
+  height: 2rem;
+  border-radius: 8px;
+}
+.cross {
+  width: 15%;
+  border-radius: 8px;
+  position: relative;
+  left: 80%;
+}
